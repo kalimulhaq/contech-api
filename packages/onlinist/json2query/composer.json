@@ -1,0 +1,21 @@
+{
+    "name": "onlinist/json2query",
+    "description": "JSON Query String to Lumen Eloquent ORM Query Builder",
+    "type": "library",
+    "require": {
+        "irazasyed/larasupport": "~1.0",
+        "netresearch/jsonmapper": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalim ul Haq",
+            "email": "kalim.dir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onlinist\\Json2query\\": "src/"
+        }
+    }
+}
