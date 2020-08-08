@@ -14,7 +14,7 @@ class Employee extends Model {
     public static $nullable = [];
     public static $updatable = ['first_name', 'last_name', 'mobile', 'email', 'dob', 'age', 'salary'];
     public static $forcedSelect = ['first_name', 'last_name', 'mobile', 'email', 'dob', 'age', 'salary'];
-    protected $appends = [];
+    protected $appends = ['full_name'];
 
     public static function createRules() {
         return [
@@ -49,4 +49,7 @@ class Employee extends Model {
         $this->attributes['age'] = $age;
     }
 
+     public function getFullNameAttribute() {
+        return "{$this->first_name} {$this->last_name}";
+    }
 }

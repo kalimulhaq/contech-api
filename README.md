@@ -3,6 +3,9 @@
 ## RUN
 
 - Git clone this repo
+```
+git clone https://github.com/kalimulhaq/contech-api.git
+```
 - Composer install 
 ```
 composer install
