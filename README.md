@@ -36,6 +36,6 @@ http://localhost:8000/
 - Get Top Paid Employees: GET http://localhost:8000/statistics/top-paid-employees?limit=20
 - Average Salary by Age: GET http://localhost:8000/statistics/average-salary-by-age
 
-## License
+## Demo
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+http://contechapi.creativexlab.com/
