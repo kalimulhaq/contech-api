@@ -38,4 +38,4 @@ http://localhost:8000/
 
 ## Demo
 
-http://contechapi.creativexlab.com/
+http://contechapi.creativexlab.com/public/
