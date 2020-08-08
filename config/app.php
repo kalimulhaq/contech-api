@@ -12,7 +12,7 @@ return [
       |
      */
 
-    'name' => env('APP_NAME', "KunAcademyAPI"),
+    'name' => env('APP_NAME', "Assignment"),
     /*
       |--------------------------------------------------------------------------
       | Application Environment
@@ -203,6 +203,6 @@ return [
         'SnappyImage' => Barryvdh\Snappy\Facades\SnappyImage::class,
         'Json2Query' => Onlinist\Json2query\Facade\Json2queryFacade::class
     ],
-    'domain' => env('APP_DOMAIN', '161.35.85.92'),
+    'domain' => env('APP_DOMAIN', 'localhost'),
     'ssl_enable' => env('SSL_ENABLE', false)
 ];

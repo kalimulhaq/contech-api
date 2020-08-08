@@ -22,3 +22,8 @@ $router->group(['prefix' => 'employees'], function () use ($router) {
     $router->put('/{id}', 'EmployeesController@update');
     $router->delete('/{id}', 'EmployeesController@delete');
 });
+
+$router->group(['prefix' => 'statistics'], function () use ($router) {
+    $router->get('/top-paid-employees', 'StatisticsController@topPaidEmployees');
+    $router->get('/average-salary-by-age', 'StatisticsController@averageSalaryByAge');
+});

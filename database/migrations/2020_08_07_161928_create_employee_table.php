@@ -20,6 +20,7 @@ class CreateEmployeeTable extends Migration
             $table->string('mobile', 255)->nullable();
             $table->string('email', 255)->nullable();
             $table->date('dob')->nullable();
+            $table->integer('age')->nullable()->unsigned();
             $table->double('salary')->nullable();
             $table->timestamps();
         });
